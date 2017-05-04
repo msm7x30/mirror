@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".." />
+
+  <default revision="master"
+           remote="github"
+           sync-j="4" />
+
+  <project name="msm7x30/android_device_qcom_msm7x30-common" />
+  <project name="msm7x30/android_hardware_qcom_audio" />
+  <project name="msm7x30/android_hardware_qcom_display" />
+  <project name="msm7x30/android_hardware_qcom_media" />
+  <project name="msm7x30/android_kernel_qcom_msm7x30" />
+  <project name="msm7x30/mirror" />
+</manifest>
